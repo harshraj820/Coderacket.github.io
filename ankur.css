@@ -55,6 +55,7 @@ ul{
     padding-bottom: 2px;
 }
 .menu-btn{
+    color:white;
     cursor: pointer;
     position: absolute;
     top: 20px;
@@ -457,7 +458,12 @@ p{
         border-bottom: 0;
     }
     }
+@media(max-width: 800px ){ 
+    .main-nav ul li a{
+        color:black;
+        } }
     @media(max-width: 700px ){
+       
         .text-box h1{
             font-size: 33px;
         }
