@@ -19,7 +19,7 @@ ul{
 
 
 /* nav bar*/
-.main-nav{
+.main-nav{    background: #040715;
     display: flex;
     align-items: center;
     height:60px ;
